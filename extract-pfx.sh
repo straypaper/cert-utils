@@ -2,7 +2,7 @@
 
 if [[ $# -eq 0 ]] ; then
     echo 'Missing arguments. Provide the name of the .pfx certificate followed by the certificate password and output directory.'
-    echo 'Example: ./convert-ssl-cert.sh <certificate> <password> <output-dir>'
+    echo 'Example: ./extract-pfx.sh <certificate> <password> <output-dir>'
     exit 0
 fi
 
